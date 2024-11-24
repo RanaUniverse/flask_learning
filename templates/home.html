@@ -12,7 +12,22 @@
         }
 
         .time {
-            font-size: 40px;
+            font-size: 24px;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            font-size: 20px;
+            text-decoration: none;
+            margin-right: 15px;
+            color: green;
+        }
+
+        .links a:hover {
+            color: rgb(255, 0, 0);
         }
     </style>
 </head>
@@ -20,7 +35,13 @@
 <body>
     <h1>{{ name.upper() }}</h1>
     <div class="time">
-        Current Time in India is: {{ time }}
+        Current Time in India is: <br>
+        {{ time }}
+    </div>
+    <div class="links">
+        <!-- Clickable links to /about and /contact -->
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
     </div>
 </body>
 
