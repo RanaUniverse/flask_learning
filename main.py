@@ -3,7 +3,10 @@ This is simple flask just in this main.py file
 """
 
 import datetime
-from flask import Flask
+from flask import (
+    Flask,
+    render_template,
+)
 
 app = Flask(__name__)
 
@@ -15,7 +18,8 @@ def hello():
     now_time_ist = datetime.datetime.now(
         datetime.timezone(datetime.timedelta(hours=5, minutes=30))
     )
-    return f"{name.upper()}<br>Current Time in India is: {now_time_ist}"
+    # Render the template with dynamic data
+    return render_template("home.html", name=name, time=now_time_ist)
 
 
 @app.route("/about")
