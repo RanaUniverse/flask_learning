@@ -8,6 +8,8 @@
 
 3. I keep the different HTML files in specefic locations to access easily.
 
+4. I make a simple form fillup with text to get my data and then user will submit and the fun with POST = / submit will trigger to give user a specefic html page. 
+
 
 
 
