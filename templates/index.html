@@ -8,21 +8,50 @@
 </head>
 
 <body>
-    <h1>Fill Out Your Details</h1>
-    <form action="/submit" method="POST">
 
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br><br>
+    <h1>Doing Mathematics🖩🖩🖩</h2>
+
+        <h3>Write Two Number to get the sum</h3>
+
+        <form action="/sum" method="post" target="_blank">
+
+            <label for="num1">Enter The 1st Number</label>
+            <br>
+            <input type="number" , id="num1" , name="num1" , value="10">
+            <br><br>
+            <label for="num2">2nd Number</label><br>
+            <input type="number" , id="num2" , name="num2" , value="10">
+            <br><br><br>
+
+            <button type="submit">Get the Sum of the Numbers</button>
+        </form>
+
+        <hr>
+        <hr>
+        <hr>
+
+        <h1>Fill Out Your Details</h1>
+
+        <form action="/submit" method="POST" , target="_blank">
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
 
 
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+            <button type="submit">Submit Your Data New TAB Window</button>
+            <br>
+            After You will submit it will open in new tab as i used: target="_blank"
 
-        <button type="submit">Submit Your Data</button>
-    </form>
+        </form>
+
+        <br>
+
+
 </body>
 
 </html>

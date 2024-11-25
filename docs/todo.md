@@ -10,6 +10,7 @@
 
 4. I make a simple form fillup with text to get my data and then user will submit and the fun with POST = / submit will trigger to give user a specefic html page. 
 
+5. I did simple sum where i will give integer value and it will result me the answer of the sum. with input type number i can get the sum of two integer and shows this to user in a new tab.
 
 
 

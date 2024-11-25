@@ -1,5 +1,11 @@
 # Information About This Flask
 
+
+```bash
+git clone https://github.com/RanaUniverse/flask_learning.git
+```
+Copy paste in terminal to clone this repo in local place
+
 `uv sync` - I will run this after clone this repo.
 
 [My Learning Progression](/docs/todo.md)
