@@ -170,7 +170,7 @@ def pillow_1_submit():
     # return f"Image Form Submitted Successfully and processing has strted. Saved at {im_location}"
     return render_template(
         "image_generate.html",
-        image_path_data=    on,
+        image_path_data=im_location,
         image_name="This is a pillow image",
     )
 
