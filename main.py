@@ -201,6 +201,12 @@ def submit():
     )
 
 
+@app.route("/image_checking")
+def image_showing():
+    print("A Image showing website has opening")
+    return render_template("image_learning.html")
+
+
 @app.route("/about")
 def about():
     return render_template("about.html")
@@ -209,6 +215,31 @@ def about():
 @app.route("/contact")
 def contact_info():
     return render_template("contact.html")
+
+
+# This will just show the page of input type checking page.
+@app.route("/input_type_checking")
+def input_type():
+    print("Input Type Checking Functions are running")
+    return render_template("input_type_checking.html")
+
+
+@app.route("/input_type_learning", methods=["POST"])
+def input_type_processing():
+    print(request.form)
+
+    text_value = request.form.get("type_text")
+    password_value = request.form.get("password")
+    email_value = request.form.get("email")
+    age_value = request.form.get("age")
+
+    return render_template(
+        "input_type_submitted.html",
+        type_text_data=text_value,
+        password_data=password_value,
+        email_data=email_value,
+        age_data=age_value,
+    )
 
 
 if __name__ == "__main__":
