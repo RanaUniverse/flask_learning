@@ -8,7 +8,51 @@
 </head>
 
 <body>
+    <h1>Image Testing with Pillow</h1>
+    <form action="/pillow1" method="post" target="_blank">
 
+        <!-- Input for the square image size -->
+        <label for="side">Size of Square Image in px:</label>
+        <input type="number" id="side" name="side"  value="1024" required>
+        <br><br>
+
+        <!-- Input for the background color -->
+        <label for="bg_color">Background Color (RGB):</label>
+        <input type="text" id="bg_color" name="bg_color" value="(255,255,255)">
+        <br><br>
+        
+
+        <!-- Input for circle radius -->
+        <label for="circle_radius">Circle Radius in px:</label>
+        <br>
+        <input type="number" id="circle_radius" name="circle_radius" value="500" required min="100" max="600">
+        <br><br>
+
+        <!-- Input for circle fill color -->
+        <label for="circle_fill">Circle Fill Color (RGB):</label>
+        <input type="text" id="circle_fill" name="circle_fill" value="(255,0,0)" required>
+        <br><br>
+
+        <!-- Input for circle outline color -->
+        <label for="circle_outline">Circle Outline Color (RGB):</label>
+        <input type="text" id="circle_outline" name="circle_outline" value="(0,255,0)" required>
+        <br><br>
+
+        <!-- Input for circle outline width -->
+        <label for="outline_width">Outline Width in px:</label>
+        <br>
+        <input type="number" id="outline_width" name="outline_width" value="10" required>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Generate Image</button>
+    </form>
+
+    <div class="container text-center"></div>
+
+    <hr>
+    <hr>
+    <hr>
     <h1>Doing Mathematics🖩🖩🖩</h2>
 
         <h3>Write Two Number to get the sum</h3>

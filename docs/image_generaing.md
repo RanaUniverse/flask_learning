@@ -1,0 +1,1 @@
+1. This docs is i wrote to keep remember what i did in the pillow image generating and how i can extend this features, for first tiem i used (255,25,2) like this and get the value of the rgb with a lot of complexity, which i need to use colorpicker in future, and so on, 
