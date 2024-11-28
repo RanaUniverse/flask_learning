@@ -15,7 +15,7 @@
 6. I am adding pillow library and a simple form fillup to generate a image after submit the data. Here i added the RGB value coming from tuple which is not good, i need to fix it in later with colorpicker. it save my image in a folder and then show it. I have added a things to display the image inthe browser after i submit the pillow form fillup. [Related Docs](docs/image_generaing.md)
 
 
-
+7. In this features i am trying to differentiate my different functions and logics in different own modules, here i need to use a lot of Blueprints. I dont know till now is this right way or not.
 
 
 
